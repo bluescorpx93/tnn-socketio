@@ -5,9 +5,28 @@
 		<title> Socket Io App</title>
 		<script src='./socket.io.js'></script>
 		<link rel='stylesheet' href='./bootstrap.min.css'/>
+		<link rel='stylesheet' href='styles.css'/>
 	</head>
 	<body>
-		<h1> App Works</h1>
-		<script src='./chat.js'></script>
+		<div class='container'>
+			<h1> Socket IO App</h1>
+			<div class='col-sm-10 col-sm-offset-1 padzero'>
+				
+				<div id='chat-app'>
+					<div id='chat-window'>
+						<div id='output'>
+							
+						</div>
+					</div>
+					
+					<input type='text' placeholder='UserName' class='form-control' id='username'/>
+					<input type='text' placeholder='Type your msg' class='form-control' id='message' />
+					<button class='btn btn-primary' id='sendBtn'>Send</button>
+				</div>
+
+			</div>
+		</div>
+		
 	</body>
+	<script src='./chat.js'></script>
 </html>
