@@ -1,12 +1,15 @@
 {
   "name": "sockets_io_app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "private": true,
+  "author": "Toufiq (https://twitter.com/burningraven06)",
+  "description" : "SocketIo Tryout",
+  "keywords" : ["socket","socketio","node","express","js","javascript"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
